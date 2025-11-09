@@ -7,6 +7,7 @@ import numpy as np
 
 
 #import the ml model
+
 with open('model.pkl', 'rb') as f:
     kmeans = pickle.load(f)
 
